@@ -8,13 +8,17 @@ To use the SFZ files you need an SFZ player.  These particular creations are des
 
 www.plogue.com/products/sforzando.html  
 
-### The Pianos
+## The Pianos
 
 The SFZ files are merely instructions for the Sforzando player and do not include the sound files necessary to work.  The piano samples that need to accompany each of these SFZ instruments must be downloaded from the Pianobook website.  For each instrument a link to the proper Pianobook library page for that piano will be included, as well as any instructions for installation if special installation is needed. 
 
-### Installation  
+## Installation  
 
-First download the matching piano instrument from Pianobook and unzip to your computer.  Then place the .sfz file from here in the **Instruments** folder of the Pianobook downloaded instrument.  Then use the *Import* feature in the Sforzando player, navigate to where your instrument is saved and load the .sfz file - and enjoy!
+First download the matching piano instrument from Pianobook and unzip to your computer.  Then place the .sfz file from here in the **Instruments** folder of the Pianobook downloaded instrument.  Then use the *Import* feature in the Sforzando player, navigate to where your instrument is saved and load the .sfz file - and enjoy!  
+
+### Feedback?
+
+These are forever will be works-in-progress, and any and all feedback is welcome, *especially* the negative.  If there's an error or a tweak that will make the pianos play better, I'd love to know! 
 
 Thanks to Christian and everyone in the Pianobook community for making this possible.
 
