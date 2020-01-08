@@ -13,4 +13,11 @@ Download the original Kontakt instrument from the Pianobook website.  Place this
 
 This version was built for and tested with the Sforzando player by Plogue, and not tested with other SFZ players.  
 
-https://www.plogue.com/products/sforzando.html
+https://www.plogue.com/products/sforzando.html  
+
+### To Do List ###
+- Add ambient microphones
+- Add volume controls for both close-up and ambient microphones
+- Fix attack and entry-point timing on all regions
+- Adjust volume
+- A#5 quiet sample has no sound?
