@@ -1,235 +1,68 @@
-/*
-
-CHURCH STEINWAY
-Recorded by Richard Luke 
-See Pianobook page for more details
-https://www.pianobook.co.uk/library/church-steinway
-
-
-ORIGINAL RECORDING INFORMATION
-Steinway Model D Concert Grand recorded by Richard Luke
-Recorded at St Brides Church, Glasgow in August 2019
-Sampled using an UAD Apollo 8 though API desk pre-amp (Unison Plugins) using a stereo Pair of AKG C1000s
-
-For the Pianobook project
-www.pianobook.co.uk
-
-SFZ Format by Mark E. Greene
-Twitter: @avant5
-Website: www.avant5.com
-
-Formatted for the Sforzando player available for free from Plogue
-https://www.plogue.com/products/sforzando.html
-
-Errors? Problems?  Give me a shout on Twitter @avant5 and let me know.  Feedback and input always welcome - even the negative.  
-
-*/
-
 <control>
 	default_path=../Samples/
 
-<global>
-	offset=35000
-	ampeg_attack=0.005
-	ampeg_decay=0
-	ampeg_sustain=700
-	ampeg_release=1.57
+<global>ampeg_attack=0.01 ampeg_decay=000 ampeg_sustain=700 ampeg_release=1.57 amp_velcurve_110=1 offset=40000
 
 
+// removed : amp_velcurve_110=1
+// What does it do???
 
+<group>pitch_keycenter=24 hikey=24
+<region> hivel=110 offset=38000 sample=Church Steinway2 P C0.wav ampeg_release=2.4
+<region>lovel=111 ampeg_release=2.8 sample=Church Steinway2 F C0.wav offset=40000
+<region>sample=Church Steinway2 RT C0.wav trigger=release_key offset=34000
 
-<group>
-	pitch_keycenter=24
-	lokey=0
-	hikey=24
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P C0.wav
-	ampeg_release=2.4
-<region>
-	lovel=111
-	ampeg_release=2.8
-	sample=Church Steinway2 F C0.wav
-<region>
-	sample=Church Steinway2 RT C0.wav
-	trigger=release_key
+<group>pitch_keycenter=31 lokey=25 hikey=31 amp_velcurve_110=1
+<region>hivel=110 sample=Church Steinway2 P G0.wav ampeg_release=1.8 offset=40000
+<region>lovel=111 sample=Church Steinway2 F G0.wav ampeg_release=1.85 offset=40000
+<region>sample=Church Steinway2 RT G0.wav trigger=release_key offset=38000
 
+<group>pitch_keycenter=38 lokey=32 hikey=38
+<region>hivel=110 amp_velcurve_110=1 sample=Church Steinway2 P D1.wav offset=40000
+<region>lovel=111 sample=Church Steinway2 F D1.wav offset=40000
+<region>sample=Church Steinway2 RT D1.wav trigger=release_key offset=38000
 
-<group>
-	pitch_keycenter=31
-	lokey=25
-	hikey=31
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P G0.wav
-	ampeg_release=1.8
-<region>
-	lovel=111
-	sample=Church Steinway2 F G0.wav
-	ampeg_release=1.85
-<region>
-	sample=Church Steinway2 RT G0.wav
-	trigger=release_key
+<group>pitch_keycenter=45 lokey=39 hikey=45
+<region>hivel=110 amp_velcurve_110=1 sample=Church Steinway2 P A1.wav
+<region>lovel=111 sample=Church Steinway2 F A1.wav
+<region>sample=Church Steinway2 RT A1.wav trigger=release_key offset=31000
 
+<group>pitch_keycenter=52 lokey=46 hikey=52
+<region>hivel=110 amp_velcurve_110=1 sample=Church Steinway2 P E2.wav offset=38000
+<region>lovel=111 sample=Church Steinway2 F E2.wav offset=38000
+<region>sample=Church Steinway2 RT E2.wav trigger=release_key offset=30000
 
-<group>
-	pitch_keycenter=38
-	lokey=32
-	hikey=38
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P D1.wav
-<region>
-	lovel=111
-	sample=Church Steinway2 F D1.wav
-<region>
-	sample=Church Steinway2 RT D1.wav
-	trigger=release_key
+<group>pitch_keycenter=59 lokey=53 hikey=59
+<region>hivel=110 amp_velcurve_110=1 sample=Church Steinway2 P B2.wav offset=36000
+<region>lovel=111 sample=Church Steinway2 F B2.wav offset=37000
+<region>sample=Church Steinway2 RT B2.wav trigger=release_key offset=30000
 
+<group>pitch_keycenter=66 lokey=60 hikey=66
+<region>hivel=110 amp_velcurve_110=1 sample=Church Steinway2 P F#3.wav offset=37000
+<region>lovel=111 sample=Church Steinway2 F F#3.wav offset=37000
+<region>sample=Church Steinway2 RT F#3.wav trigger=release_key offset=30000
 
-<group>
-	pitch_keycenter=45
-	lokey=39
-	hikey=45
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P A1.wav
-<region>
-	lovel=111
-	sample=Church Steinway2 F A1.wav
-<region>
-	sample=Church Steinway2 RT A1.wav
-	trigger=release_key
+<group>pitch_keycenter=73 lokey=67 hikey=73
+<region>hivel=110 amp_velcurve_110=1 sample=Church Steinway2 P C#4.wav offset=38500
+<region>lovel=111 sample=Church Steinway2 F C#4.wav offset=25000
+<region>sample=Church Steinway2 RT C#4.wav trigger=release_key offset=25000
 
+<group>pitch_keycenter=80 lokey=74 hikey=80
+<region>hivel=110 amp_velcurve_110=1 sample=Church Steinway2 P G#4.wav offset=36000
+<region>lovel=111 sample=Church Steinway2 F G#4.wav
+<region>sample=Church Steinway2 RT G#4.wav trigger=release_key offset=25000
 
-<group>
-	pitch_keycenter=52
-	lokey=46
-	hikey=52
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P E2.wav
-<region>
-	lovel=111
-	sample=Church Steinway2 F E2.wav
-<region>
-	sample=Church Steinway2 RT E2.wav
-	trigger=release_key
+<group>pitch_keycenter=87 lokey=81 hikey=87
+<region>hivel=110 amp_velcurve_110=1 sample=Church Steinway2 P D#5.wav offset=35000
+<region>lovel=111 sample=Church Steinway2 F D#5.wav offset=37000
+<region>sample=Church Steinway2 RT D#5.wav trigger=release_key offset=19000
 
+<group>pitch_keycenter=94 lokey=88 hikey=94
+<region>hivel=110 amp_velcurve_110=1 sample=Church Steinway2 P A#5.wav offset=35000
+<region>lovel=111 sample=Church Steinway2 F A#5.wav offset=37000
+<region>sample=Church Steinway2 RT A#5.wav trigger=release_key offset=19000
 
-<group>
-	pitch_keycenter=59
-	lokey=53
-	hikey=59
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P B2.wav
-<region>
-	lovel=111
-	sample=Church Steinway2 F B2.wav
-<region>
-	sample=Church Steinway2 RT B2.wav
-	trigger=release_key
-
-
-<group>
-	pitch_keycenter=66
-	lokey=60
-	hikey=66
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P F#3.wav
-<region>
-	lovel=111
-	sample=Church Steinway2 F F#3.wav
-<region>
-	sample=Church Steinway2 RT F#3.wav
-	trigger=release_key
-
-
-<group>
-	pitch_keycenter=73
-	lokey=67
-	hikey=73
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P C#4.wav
-<region>
-	lovel=111
-	sample=Church Steinway2 F C#4.wav
-<region>
-	sample=Church Steinway2 RT C#4.wav
-	trigger=release_key
-
-
-<group>
-	pitch_keycenter=80
-	lokey=74
-	hikey=80
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P G#4.wav
-<region>
-	lovel=111
-	sample=Church Steinway2 F G#4.wav
-<region>
-	sample=Church Steinway2 RT G#4.wav
-	trigger=release_key
-
-
-<group>
-	pitch_keycenter=87
-	lokey=81
-	hikey=87
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P D#5.wav
-<region>
-	lovel=111
-	sample=Church Steinway2 F D#5.wav
-<region>
-	sample=Church Steinway2 RT D#5.wav
-	trigger=release_key
-
-
-<group>
-	pitch_keycenter=94
-	lokey=88
-	hikey=94
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P A#5.wav
-<region>
-	lovel=111
-	sample=Church Steinway2 F A#5.wav
-<region>
-	sample=Church Steinway2 RT A#5.wav
-	trigger=release_key
-
-
-<group>
-	pitch_keycenter=101
-	lokey=95
-<region>
-	hivel=110
-	amp_velcurve_110=1
-	sample=Church Steinway2 P F6.wav
-	ampeg_release=1.5
-<region>
-	lovel=111
-	sample=Church Steinway2 F F6.wav
-	ampeg_release=1.6
-<region>
-	sample=Church Steinway2 RT F6.wav
-	trigger=release_key
+<group>pitch_keycenter=101 lokey=95
+<region>hivel=110 amp_velcurve_110=1 sample=Church Steinway2 P F6.wav ampeg_release=1.5 offset=36500
+<region>lovel=111 sample=Church Steinway2 F F6.wav ampeg_release=1.6 offset=36500
+<region>sample=Church Steinway2 RT F6.wav trigger=release_key offset=19000
